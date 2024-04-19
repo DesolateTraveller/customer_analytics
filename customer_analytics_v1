@@ -10,7 +10,7 @@ import time
 from random import randint
 import warnings
 warnings.filterwarnings("ignore")
-from PIL import Image
+#from PIL import Image
 import json
 import holidays
 import altair as alt
