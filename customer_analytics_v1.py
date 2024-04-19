@@ -33,7 +33,7 @@ from plotly.subplots import make_subplots
 import plotly.offline as pyoff
 #----------------------------------------
 import sweetviz as sv
-import pandas_profiling
+import ydata_profiling
 from streamlit_pandas_profiling import st_profile_report
 #----------------------------------------
 from sklearn.cluster import KMeans
