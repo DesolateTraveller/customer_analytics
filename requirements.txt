@@ -15,5 +15,9 @@ scipy
 streamlit-aggrid
 streamlit-extras
 sweetviz
+ydata-profiling
+altair
+itertools
+
 
 
