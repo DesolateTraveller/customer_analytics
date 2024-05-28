@@ -72,13 +72,12 @@ from sklearn.model_selection import GridSearchCV, RandomizedSearchCV, cross_val_
 ### Title and description for your Streamlit app
 #---------------------------------------------------------------------------------------------------------------------------------
 #import custom_style()
-#image = Image.open('Image_Clariant.png')
-st.set_page_config(page_title="CLM | v1.0",
+st.set_page_config(page_title="Customer Lifecycle Management (CLM)",
                    layout="wide",
                    #page_icon=               
                    initial_sidebar_state="collapsed")
 #----------------------------------------
-st.title("Customer Lifecycle Management (CLM) | v1.0")
+st.title("f""":rainbow[Customer Lifecycle Management (CLM) | v1.0]""")
 st.markdown('Created by | <a href="mailto:avijit.mba18@gmail.com">Avijit Chakraborty</a>', 
             unsafe_allow_html=True)
 st.info('**Disclaimer : :blue[Thank you for visiting the app] | This app is created for internal use, unauthorized uses or copying is strictly prohibited | Please expand the below :blue[Project Description] to know more and click the :blue[sidebar] to follow the instructions to start the applications.**', icon="ℹ️")
